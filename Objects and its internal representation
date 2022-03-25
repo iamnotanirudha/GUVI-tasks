@@ -1,0 +1,28 @@
+A JavaScript object has properties associated with it. A property of an object can be explained as a variable 
+that is attached to the object. Object properties are basically the same as ordinary JavaScript variables, except 
+for the attachment to objects. The properties of an object define the characteristics of the object. You access the 
+properties of an object with a simple dot-notation: eg. objectName.propertyName
+
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference 
+data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer 
+to that value. That reference or pointer points to the location in memory where the object is stored. The variables don’t
+actually store the value.
+
+Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, of primitive or 
+reference types, in the form of “key: value” pairs. These keys can be variables or functions and are called properties 
+and methods, respectively, in the context of an object.
+
+Create JavaScript Object with Object Literal
+One of easiest way to create a javascript object is object literal, simply define the property and values inside curly
+braces as shown below
+let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
+
+Using the JavaScript Keyword new
+The following example also creates a new JavaScript object with four properties:
+Example
+var person = new Object();
+person.firstName = “John”;
+person.lastName = “Doe”;
+person.age = 50;
+person.eyeColor = “blue”;
