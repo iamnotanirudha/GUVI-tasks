@@ -1,0 +1,22 @@
+HTTP stands for hypertext transfer protocol,
+HTTP is the method computers and servers use to request and send information.
+ For instance, when someone navigates to certain website like www.guvi.in on their laptop, their web browser sends an 
+HTTP request to the Guvi servers for the content that appears on the page. Then, Guvi servers send HTTP responses with
+ the text, images, and formatting that the browser displays to the user.
+
+HTTP1 vs HTTP2
+1)	In http1, For every TCP connection there is only one request and one response while in htpp2 which uses 
+multiplexing, where over a single TCP connection resources to be delivered are interleaved and arrive at the client
+ almost at the same time.
+
+
+2)	http1 uses basic authentication scheme which is unsafe since username and passwords are transmitted in 
+clear text or base64 encode where as in http2, security concerns from previous versions will continue to be seen 
+in HTTP/2. However, it is better equipped to deal with them due to new TLS features like connection error of type 
+Inadequate_Security.
+
+
+3)	In http1, TCP starts slowly and with domain sharding (resources can be downloaded simultaneously by using 
+multiple domains), connection reuse and pipelining, there is an increased risk of network congestion. As for http2 
+utilizes multiplexing and server push to effectively reduce the page load time by a greater margin along with being 
+less sensitive to network delays.
