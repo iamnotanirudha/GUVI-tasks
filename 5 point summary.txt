@@ -1,0 +1,31 @@
+Q.1 5 point summary :
+
+1. Parse tree is a 1 to 1 representation of you HTML, which then goes to DOM tree where all the data in form of token is 
+   foramtted in form of tree like nodes and rendered.Whenever an HTML element is found, it creates a DOM node
+
+2. After constructing the DOM, the browser reads CSS from all the sources and construct a CSSOM. CSSOM stands for 
+   CSS Object Model which is a Tree Like structure just like DOM.
+
+3. Render-Tree is also a tree-like structure constructed by combining DOM and CSSOM trees together. The browser has to
+   calculate the layout of each visible element and paint them on the screen, for that browser uses this Render-Tree. Hence,
+   unless Render-Tree isn’t constructed, nothing is going to get printed on the screen which is why we need both DOM and 
+   CSSOM trees.
+
+4. Layout is a process it computes where the elements will appear on the page based on its relationship with other elements 
+
+5. painting will computes bitmaps and composites these elemts on to the screen, basically will paint the layout and deliver a visual output on the screen
+
+
+Q.2 Execute the below code and write your description in txt file
+
+typeof(1) - number
+typeof(1.1) - number
+typeof('1.1') - string
+typeof(true) - boolean
+typeof(null) - object
+typeof(undefined) - undefined
+typeof([]) - object
+typeof({}) - object
+typeof(NaN) - number
+
+
