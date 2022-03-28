@@ -1,0 +1,61 @@
+/*For the given JSON iterate over all for loops (for, for in, 
+for of, forEach) */
+
+var obj=[
+{person:"Name",age:"2",company:"Guvi"},
+{person:"Name",age:"3",company:"Guvi Geek"},
+{person:"Name",age:"4",company:"Guvi Geek Network"},
+]
+
+//using for in loop
+for(let index in obj) {
+    user = obj[index];
+    console.log(`
+        Name : ${user.person}
+        Age : ${user.age}
+        Company : ${user.company}`);
+    
+}
+
+//using for loop
+for(let i = 0; i < obj.length; i++) {
+    var user = obj[i];
+
+    console.log(`
+        Name : ${user.person}
+        Age : ${user.age}
+        Company : ${user.company}`);
+    
+} 
+
+
+//for each loop 
+// method1 using arrow function
+obj.forEach((user) => {
+    console.log(`
+        Name : ${user.person}
+        Age : ${user.age}
+        Company : ${user.company}`);
+})
+
+//method2 with normal function call backl
+obj.forEach(function(data){
+    console.log(`
+        Name : ${user.person}
+        Age : ${user.age}
+        Company : ${user.company}`);
+
+});
+
+
+//for of loop
+for(let user of obj){
+    console.log(`
+    Name : ${user.person}
+    Age : ${user.age}
+    Company : ${user.company}`);
+
+}
+
+
+
