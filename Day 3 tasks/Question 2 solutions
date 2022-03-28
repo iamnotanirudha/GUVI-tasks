@@ -1,0 +1,39 @@
+//resume in JSON format
+
+let resume = {
+    name : 'Anirudha Dudhasagare',
+    title : 'Fullstack Web Developer',
+ 
+    work_experience : {
+        project_intern : 'CMP InfoTech, Mumbai',
+    },
+
+    Volunteer : 'Smit Old Age Home and Care Foundation',
+
+    Education : {
+        HSC : 'PACE junior science college, Dadar(HSC) - 60.00%',
+        Engg : 'Xavier\'s Institute of Engineering(B.E Engineering, Computer Science) - 6.50'
+
+    },
+
+    Training_And_Certification : {
+        course1 : 'Cryptocurrency and Blockchain on Udemy',
+        course2 : 'Python for everybody on coursera',
+        course3 : 'Certified Information Security and Ethical Hacker'
+    },
+
+    academic_Projects : {
+        pro1 : 'E-voting system using Blockchain technology',
+        pro2 : 'Hotel Management System',
+        pro3 : 'optical character recognition system',
+
+    },
+
+    skills : 'HTML, CSS, JavaScript, Python, Blockchain, Solidity'
+
+
+
+    
+};
+
+console.log(resume);
